@@ -11,6 +11,7 @@ p{
 }
 .label{
   margin-bottom: 6px;
+  font-weight: bold;
 }
 .agree-join{
   width: 295px;
