@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <div class="container">
+    <div class="main">
+      <div class="right">
+        <div><img class="img" src="cat.avif"></div>
+        <div class="text">
+          <p style="font-weight: bold;">Oliver</p>
+          <p>the cat</p>
+          <p>Popular</p>
+        </div>
+    </div>
+    <div class="left"><button class="btn">Follow</button></div> 
+    
+  </div>
+  <div class="main">
+    <div class="right">
+      <div><img class="img" src="cat.avif"></div>
+      <div class="text">
+        <p>Oliver</p>
+        <p>the cat</p>
+        <p>Popular</p>
+      </div>
+  </div>
+  <div class="left"><button class="btn">Follow</button></div> 
+  
+</div>
+<div class="main">
+  <div class="right">
+    <div><img class="img" src="cat.avif"></div>
+    <div class="text">
+      <p>Oliver</p>
+      <p>the cat</p>
+      <p>Popular</p>
+    </div>
+</div>
+<div class="left"><button class="btn">Follow</button></div> 
+
+</div>
+</div>
+  </body>
+</html>
+
+<style>
+
+
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 250px;
+    margin-top: 10px;
+  
+    
+  }
+  .right{
+
+    display: flex;
+    flex-direction: row;
+  }
+  p{
+    margin: 0;
+    margin-bottom: 5px
+  }
+  .img{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-top: 6px;
+
+    }
+    .text{
+      margin-left: 10px;
+    }
+    .btn{
+      background-color: #4193F1;
+      color: white;
+      width: 65px;
+      height: 35px;
+      border-style: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+</style>

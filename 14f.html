@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <div class="side-bar">
+      <div class="first-row">
+        <img class="img" src="cat.avif" />
+        <img class="img" src="cat.avif" />
+        <img class="img" src="cat.avif" />
+      </div>
+      <div class="second-row">
+        <div class="info-plus-text">
+          <p class="info-text">INFO</p>
+          <p class="plus-symbol">+</p>
+        </div>
+        <div class="hastag">
+          <p class="hastag-text"># new-videos</p>
+          <p class="hastag-text"># updates</p>
+          <p class="hastag-text"># faq</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<style>
+  .side-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    background-color: #323132;
+  }
+  .first-row {
+    width: 50px;
+    background-color: #232125;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  .img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+  .info-text {
+    display: inline-block;
+    margin-right: 70px;
+  }
+  .plus-symbol {
+    display: inline-block;
+    color: #979697;
+    font-size: 17px;
+  }
+  .info-plus-text {
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+  .hastag {
+    margin-top: 8px;
+    margin-left: 12px;
+  }
+  .hastag-text {
+    margin-bottom: 5px;
+    color: #979697 ;
+  }
+  p {
+    margin: 0;
+    color: white;
+    font-family: Arial;
+  }
+</style>

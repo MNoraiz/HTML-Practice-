@@ -1,0 +1,25 @@
+p{
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+  font-size: 13px;
+}
+.linkdin-search{
+  width: 295px;
+  height: 26px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.label{
+  margin-bottom: 6px;
+}
+.agree-join{
+  width: 295px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  vertical-align: middle;
+}

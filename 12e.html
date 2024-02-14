@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <div class="container">
+    <div class="main">
+      <div class="noti-text">Home</div>
+      <div class="noti-count"><p>14</p></div>
+    </div>
+    <div class="main">
+      <div class="noti-text">Notification</div>
+      <div class="noti-count"><p>1423</p></div>
+    </div>
+    <div class="main">
+      <div class="noti-text">Messages</div>
+      <div class="noti-count"><p>1</p></div>
+    </div>
+  </div>
+  </body>
+</html>
+
+<style>
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 3px;
+
+    width: 260px;
+    height: 100px;
+
+    
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+    width: 250px;
+    margin-left: 5px;
+
+    
+  }
+  .noti-text{
+    font-weight: bold;
+
+  }
+  .noti-count{
+    background-color: #426CEE;
+    border-radius: 11px;
+    min-width: 27px;
+    justify-content: center;
+    height: 25px;
+    
+  }
+  p{
+    margin: 0;
+    text-align: center;
+    margin-top: 3px;
+    color: white;
+  }
+</style>
